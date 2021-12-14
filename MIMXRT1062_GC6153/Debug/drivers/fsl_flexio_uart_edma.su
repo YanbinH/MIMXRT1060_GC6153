@@ -1,0 +1,14 @@
+../drivers/fsl_flexio.h:652:20:FLEXIO_EnableShifterStatusDMA	0	static
+../drivers/fsl_flexio_uart.h:282:24:FLEXIO_UART_GetTxDataRegisterAddress	8	static
+../drivers/fsl_flexio_uart.h:295:24:FLEXIO_UART_GetRxDataRegisterAddress	8	static
+../drivers/fsl_flexio_uart.h:308:20:FLEXIO_UART_EnableTxDMA	8	static
+../drivers/fsl_flexio_uart.h:321:20:FLEXIO_UART_EnableRxDMA	8	static
+../drivers/fsl_flexio_uart_edma.c:79:13:FLEXIO_UART_TransferSendEDMACallback	16	static
+../drivers/fsl_flexio_uart_edma.c:101:13:FLEXIO_UART_TransferReceiveEDMACallback	16	static
+../drivers/fsl_flexio_uart_edma.c:139:10:FLEXIO_UART_TransferCreateHandleEDMA	24	static
+../drivers/fsl_flexio_uart_edma.c:204:10:FLEXIO_UART_TransferSendEDMA	64	static
+../drivers/fsl_flexio_uart_edma.c:262:10:FLEXIO_UART_TransferReceiveEDMA	64	static
+../drivers/fsl_flexio_uart_edma.c:315:6:FLEXIO_UART_TransferAbortSendEDMA	8	static
+../drivers/fsl_flexio_uart_edma.c:336:6:FLEXIO_UART_TransferAbortReceiveEDMA	8	static
+../drivers/fsl_flexio_uart_edma.c:360:10:FLEXIO_UART_TransferGetReceiveCountEDMA	16	static
+../drivers/fsl_flexio_uart_edma.c:391:10:FLEXIO_UART_TransferGetSendCountEDMA	16	static

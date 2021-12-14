@@ -1,0 +1,12 @@
+../drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+../drivers/fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+../drivers/fsl_clock.h:1229:20:CLOCK_EnableClock	8	static
+../drivers/fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+../drivers/fsl_tsc.c:40:17:TSC_GetInstance	8	static
+../drivers/fsl_tsc.c:64:6:TSC_Init	16	static
+../drivers/fsl_tsc.c:92:6:TSC_Deinit	8	static
+../drivers/fsl_tsc.c:114:6:TSC_GetDefaultConfig	8	static
+../drivers/fsl_tsc.c:134:10:TSC_GetMeasureValue	0	static
+../drivers/fsl_tsc.c:163:6:TSC_DebugTriggerSignalToADC	0	static
+../drivers/fsl_tsc.c:186:6:TSC_DebugEnableDetection	0	static
+../drivers/fsl_tsc.c:223:6:TSC_DebugSetPortMode	8	static

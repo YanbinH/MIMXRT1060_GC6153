@@ -1,0 +1,8 @@
+../drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+../drivers/fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+../drivers/fsl_clock.h:1229:20:CLOCK_EnableClock	8	static
+../drivers/fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+../drivers/fsl_xbarb.c:54:17:XBARB_GetInstance	8	static
+../drivers/fsl_xbarb.c:79:6:XBARB_Init	8	static
+../drivers/fsl_xbarb.c:94:6:XBARB_Deinit	8	static
+../drivers/fsl_xbarb.c:113:6:XBARB_SetSignalsConnection	8	static

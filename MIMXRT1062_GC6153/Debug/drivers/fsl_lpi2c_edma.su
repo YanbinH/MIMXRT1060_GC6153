@@ -1,0 +1,17 @@
+D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\CMSIS/core_cm7.h:1902:22:__NVIC_EnableIRQ	16	static
+../drivers/fsl_common_arm.h:488:24:EnableIRQ	8	static
+../drivers/fsl_lpi2c.h:577:24:LPI2C_MasterGetStatusFlags	0	static
+../drivers/fsl_lpi2c.h:602:20:LPI2C_MasterClearStatusFlags	0	static
+../drivers/fsl_lpi2c.h:622:20:LPI2C_MasterEnableInterrupts	0	static
+../drivers/fsl_lpi2c.h:637:20:LPI2C_MasterDisableInterrupts	0	static
+../drivers/fsl_lpi2c.h:666:20:LPI2C_MasterEnableDMA	0	static
+../drivers/fsl_lpi2c.h:677:24:LPI2C_MasterGetTxFifoAddress	0	static
+../drivers/fsl_lpi2c.h:688:24:LPI2C_MasterGetRxFifoAddress	0	static
+../drivers/fsl_edma.h:975:24:EDMA_GetNextTCDAddress	0	static
+../drivers/fsl_lpi2c_edma.c:105:6:LPI2C_MasterCreateEDMAHandle	24	static
+../drivers/fsl_lpi2c_edma.c:147:17:LPI2C_GenerateCommands	8	static
+../drivers/fsl_lpi2c_edma.c:230:10:LPI2C_MasterTransferEDMA	56	static
+../drivers/fsl_lpi2c_edma.c:435:10:LPI2C_MasterTransferGetCountEDMA	16	static
+../drivers/fsl_lpi2c_edma.c:485:10:LPI2C_MasterTransferAbortEDMA	16	static
+../drivers/fsl_lpi2c_edma.c:520:13:LPI2C_MasterEDMACallback	16	static
+../drivers/fsl_lpi2c_edma.c:548:13:LPI2C_MasterTransferEdmaHandleIRQ	24	static

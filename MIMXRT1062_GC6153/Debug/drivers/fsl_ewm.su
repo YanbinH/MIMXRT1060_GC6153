@@ -1,0 +1,11 @@
+../drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+../drivers/fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+../drivers/fsl_clock.h:1229:20:CLOCK_EnableClock	8	static
+../drivers/fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+../drivers/fsl_common_arm.h:568:24:DisableGlobalIRQ	0	static
+../drivers/fsl_common_arm.h:595:20:EnableGlobalIRQ	0	static
+../drivers/fsl_ewm.h:176:20:EWM_DisableInterrupts	0	static
+../drivers/fsl_ewm.c:39:6:EWM_Init	16	static
+../drivers/fsl_ewm.c:73:6:EWM_Deinit	8	static
+../drivers/fsl_ewm.c:103:6:EWM_GetDefaultConfig	8	static
+../drivers/fsl_ewm.c:131:6:EWM_Refresh	8	static

@@ -1,0 +1,15 @@
+D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\CMSIS/core_cm7.h:1902:22:__NVIC_EnableIRQ	16	static
+../drivers/fsl_common_arm.h:488:24:EnableIRQ	8	static
+../drivers/fsl_lpuart.h:651:24:LPUART_GetDataRegisterAddress	0	static
+../drivers/fsl_lpuart.h:664:20:LPUART_EnableTxDMA	0	static
+../drivers/fsl_lpuart.h:684:20:LPUART_EnableRxDMA	0	static
+../drivers/fsl_lpuart_edma.c:112:13:LPUART_SendEDMACallback	16	static
+../drivers/fsl_lpuart_edma.c:135:13:LPUART_ReceiveEDMACallback	16	static
+../drivers/fsl_lpuart_edma.c:167:6:LPUART_TransferCreateHandleEDMA	32	static
+../drivers/fsl_lpuart_edma.c:246:10:LPUART_SendEDMA	64	static
+../drivers/fsl_lpuart_edma.c:305:10:LPUART_ReceiveEDMA	64	static
+../drivers/fsl_lpuart_edma.c:358:6:LPUART_TransferAbortSendEDMA	8	static
+../drivers/fsl_lpuart_edma.c:380:6:LPUART_TransferAbortReceiveEDMA	8	static
+../drivers/fsl_lpuart_edma.c:406:10:LPUART_TransferGetReceiveCountEDMA	16	static
+../drivers/fsl_lpuart_edma.c:437:10:LPUART_TransferGetSendCountEDMA	16	static
+../drivers/fsl_lpuart_edma.c:464:6:LPUART_TransferEdmaHandleIRQ	16	static

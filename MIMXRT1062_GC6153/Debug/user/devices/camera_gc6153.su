@@ -1,0 +1,8 @@
+../user/devices/camera_gc6153.c:15:17:I2C_Write_GC6153_Reg	24	static
+../user/devices/camera_gc6153.c:21:17:I2C_Read_GC6153_Reg	16	static
+../user/devices/camera_gc6153.c:29:7:GC6153_Initial_Setting	8	static
+../user/devices/camera_gc6153.c:197:6:GC6153_Set_Clock	8	static
+../user/devices/camera_gc6153.c:235:6:GC6153_Power_On	8	static
+../user/devices/camera_gc6153.c:251:6:GC6153_Power_Down	8	static
+../user/devices/camera_gc6153.c:258:9:GC6153_Check_Id	32	static
+../user/devices/camera_gc6153.c:276:9:GC6153_Open	8	static

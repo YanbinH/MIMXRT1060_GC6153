@@ -1,0 +1,8 @@
+../drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+../drivers/fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+../drivers/fsl_clock.h:1229:20:CLOCK_EnableClock	8	static
+../drivers/fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+../drivers/fsl_pit.c:42:17:PIT_GetInstance	8	static
+../drivers/fsl_pit.c:68:6:PIT_Init	16	static
+../drivers/fsl_pit.c:106:6:PIT_Deinit	8	static
+../drivers/fsl_pit.c:134:10:PIT_GetLifetimeTimerCount	0	static

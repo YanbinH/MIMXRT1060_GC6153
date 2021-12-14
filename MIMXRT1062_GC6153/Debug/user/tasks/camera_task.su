@@ -1,0 +1,3 @@
+../user/tasks/camera_task.c:12:13:Camera_Init_Task	8	static
+../user/tasks/camera_task.c:31:13:Camera_Task	16	static
+../user/tasks/camera_task.c:44:6:Camera_Start	16	static

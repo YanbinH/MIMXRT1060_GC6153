@@ -1,0 +1,16 @@
+../drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+../drivers/fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+../drivers/fsl_clock.h:1229:20:CLOCK_EnableClock	8	static
+../drivers/fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+../drivers/fsl_ocotp.h:94:20:OCOTP_CheckBusyStatus	0	static
+../drivers/fsl_ocotp.h:105:20:OCOTP_CheckErrorStatus	0	static
+../drivers/fsl_ocotp.h:115:20:OCOTP_ClearErrorStatus	0	static
+../drivers/fsl_ocotp.c:69:10:OCOTP_ReloadShadowRegister	16	static
+../drivers/fsl_ocotp.c:121:13:OCOTP_SetReadTiming	0	static
+../drivers/fsl_ocotp.c:131:13:OCOTP_SetWriteTiming	0	static
+../drivers/fsl_ocotp.c:144:6:OCOTP_Init	48	static
+../drivers/fsl_ocotp.c:174:6:OCOTP_Deinit	8	static
+../drivers/fsl_ocotp.c:192:10:OCOTP_ReadFuseShadowRegister	16	static
+../drivers/fsl_ocotp.c:203:10:OCOTP_ReadFuseShadowRegisterExt	24	static
+../drivers/fsl_ocotp.c:292:10:OCOTP_WriteFuseShadowRegister	8	static
+../drivers/fsl_ocotp.c:297:10:OCOTP_WriteFuseShadowRegisterWithLock	24	static

@@ -1,0 +1,2 @@
+../drivers/fsl_aipstz.c:30:6:AIPSTZ_SetMasterPriviledgeLevel	0	static
+../drivers/fsl_aipstz.c:44:6:AIPSTZ_SetPeripheralAccessControl	8	static

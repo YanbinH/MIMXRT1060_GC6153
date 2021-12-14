@@ -1,0 +1,7 @@
+D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_lpuart.h:719:20:LPUART_EnableTx	0	static
+D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_lpuart.h:739:20:LPUART_EnableRx	0	static
+../drivers/freertos/fsl_lpuart_freertos.c:19:13:LPUART_RTOS_Callback	16	static
+../drivers/freertos/fsl_lpuart_freertos.c:72:5:LPUART_RTOS_Init	40	static
+../drivers/freertos/fsl_lpuart_freertos.c:189:5:LPUART_RTOS_Deinit	8	static
+../drivers/freertos/fsl_lpuart_freertos.c:226:5:LPUART_RTOS_Send	24	static
+../drivers/freertos/fsl_lpuart_freertos.c:295:5:LPUART_RTOS_Receive	40	static

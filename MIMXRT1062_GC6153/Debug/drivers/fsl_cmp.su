@@ -1,0 +1,17 @@
+../drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+../drivers/fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+../drivers/fsl_clock.h:1229:20:CLOCK_EnableClock	8	static
+../drivers/fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+../drivers/fsl_cmp.h:154:20:CMP_Enable	0	static
+../drivers/fsl_cmp.c:39:17:CMP_GetInstance	8	static
+../drivers/fsl_cmp.c:70:6:CMP_Init	16	static
+../drivers/fsl_cmp.c:134:6:CMP_Deinit	8	static
+../drivers/fsl_cmp.c:160:6:CMP_GetDefaultConfig	8	static
+../drivers/fsl_cmp.c:189:6:CMP_SetInputChannels	0	static
+../drivers/fsl_cmp.c:210:6:CMP_EnableDMA	0	static
+../drivers/fsl_cmp.c:232:6:CMP_SetFilterConfig	8	static
+../drivers/fsl_cmp.c:263:6:CMP_SetDACConfig	0	static
+../drivers/fsl_cmp.c:290:6:CMP_EnableInterrupts	0	static
+../drivers/fsl_cmp.c:311:6:CMP_DisableInterrupts	0	static
+../drivers/fsl_cmp.c:333:10:CMP_GetStatusFlags	0	static
+../drivers/fsl_cmp.c:358:6:CMP_ClearStatusFlags	0	static
