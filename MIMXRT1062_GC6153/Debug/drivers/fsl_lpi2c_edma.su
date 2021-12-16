@@ -1,4 +1,4 @@
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\CMSIS/core_cm7.h:1902:22:__NVIC_EnableIRQ	16	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\CMSIS/core_cm7.h:1902:22:__NVIC_EnableIRQ	16	static
 ../drivers/fsl_common_arm.h:488:24:EnableIRQ	8	static
 ../drivers/fsl_lpi2c.h:577:24:LPI2C_MasterGetStatusFlags	0	static
 ../drivers/fsl_lpi2c.h:602:20:LPI2C_MasterClearStatusFlags	0	static

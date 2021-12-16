@@ -10,15 +10,12 @@
 
 
 
-static lpi2c_master_config_t masterConfig;
 static lpi2c_rtos_handle_t master_rtos_handle;
-static lpi2c_master_transfer_t masterXfer;
-static lpspi_slave_config_t slaveConfig;
 
 
 static uint8_t Rxdata;
 static uint8_t slaveRxData[TRANSFER_SIZE];
-static uint32_t xfercnt = 0;
+static volatile uint32_t xfercnt = 0;
 static uint16_t image_data[IMAGE_HIGHT*IMAGE_WIDTH];
 static uint8_t pre_data[3];
 static GC6153_Status img_status = Frame_Stop;
@@ -107,6 +104,7 @@ static status_t GC6153_I2C_Transfer(uint8_t deviceAddress,
         uint8_t *data, size_t dataSize)
 {
 	status_t status;
+	lpi2c_master_transfer_t masterXfer;
     memset(&masterXfer, 0, sizeof(masterXfer));
     masterXfer.slaveAddress   = deviceAddress;
     masterXfer.direction      = kLPI2C_Write;
@@ -127,6 +125,7 @@ static status_t GC6153_I2C_Receive(uint8_t deviceAddress,
         uint8_t *data, size_t dataSize)
 {
 	status_t status;
+	lpi2c_master_transfer_t masterXfer;
     memset(&masterXfer, 0, sizeof(masterXfer));
     masterXfer.slaveAddress   = deviceAddress;
     masterXfer.direction      = kLPI2C_Read;
@@ -200,6 +199,7 @@ static void GC6153_InitPins(void)
 
 static void Camera_i2cinit(void)
 {
+	lpi2c_master_config_t masterConfig;
     LPI2C_MasterGetDefaultConfig(&masterConfig);
     masterConfig.baudRate_Hz = 400000;
     LPI2C_RTOS_Init(&master_rtos_handle, CAMERA_I2C_MASTER, &masterConfig, LPI2C_CLOCK_FREQUENCY);
@@ -210,7 +210,7 @@ static void Camera_i2cinit(void)
 
 static void Camera_spiinit(void)
 {
-
+	lpspi_slave_config_t slaveConfig;
     LPSPI_SlaveGetDefaultConfig(&slaveConfig);
     LPSPI_SlaveInit(LPSPI1, &slaveConfig);
     LPSPI_EnableInterrupts(LPSPI1, kLPSPI_RxInterruptEnable);

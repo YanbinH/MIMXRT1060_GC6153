@@ -1,4 +1,4 @@
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_lpspi.h:616:20:LPSPI_EnableInterrupts	0	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_lpspi.h:616:20:LPSPI_EnableInterrupts	0	static
 ../user/tasks/display_task.c:15:13:Display_Init_Task	8	static
 ../user/tasks/display_task.c:24:13:Display_Task	16	static
 ../user/tasks/display_task.c:44:6:Display_Start	16	static

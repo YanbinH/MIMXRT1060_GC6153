@@ -1,5 +1,5 @@
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:568:24:DisableGlobalIRQ	0	static
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:595:20:EnableGlobalIRQ	0	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:568:24:DisableGlobalIRQ	0	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:595:20:EnableGlobalIRQ	0	static
 ../component/serial_manager/fsl_component_serial_manager.c:375:32:SerialManager_StartWriting	8	static
 ../component/serial_manager/fsl_component_serial_manager.c:430:32:SerialManager_StartReading	8	static
 ../component/serial_manager/fsl_component_serial_manager.c:1168:32:SerialManager_Write	8	static

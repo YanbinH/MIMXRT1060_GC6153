@@ -10,7 +10,7 @@
 #include "gc6153.h"
 
 
-uint16_t *pImgBuff;
+static uint16_t *pImgBuff;
 
 static void Display_Init_Task(void *param)
 {

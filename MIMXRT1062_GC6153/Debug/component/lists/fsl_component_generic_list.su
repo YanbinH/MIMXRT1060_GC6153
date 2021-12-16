@@ -1,5 +1,5 @@
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:568:24:DisableGlobalIRQ	0	static
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:595:20:EnableGlobalIRQ	0	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:568:24:DisableGlobalIRQ	0	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_common_arm.h:595:20:EnableGlobalIRQ	0	static
 ../component/lists/fsl_component_generic_list.c:32:22:LIST_Error_Check	0	static
 ../component/lists/fsl_component_generic_list.c:80:6:LIST_Init	0	static
 ../component/lists/fsl_component_generic_list.c:103:15:LIST_GetList	0	static

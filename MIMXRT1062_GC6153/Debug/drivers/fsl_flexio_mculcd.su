@@ -1,4 +1,4 @@
-D:\MIMXRT1060_APP\MIMXRT1062_APP\MIMXRT1062_GC6153\CMSIS/core_cm7.h:1902:22:__NVIC_EnableIRQ	16	static
+F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\CMSIS/core_cm7.h:1902:22:__NVIC_EnableIRQ	16	static
 ../drivers/fsl_common_arm.h:488:24:EnableIRQ	8	static
 ../drivers/fsl_flexio.h:486:20:FLEXIO_EnableShifterStatusInterrupts	0	static
 ../drivers/fsl_flexio.h:499:20:FLEXIO_DisableShifterStatusInterrupts	0	static
