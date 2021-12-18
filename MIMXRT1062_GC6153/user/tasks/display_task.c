@@ -2,7 +2,7 @@
  * display_task.c
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 
@@ -10,7 +10,12 @@
 #include "gc6153.h"
 
 
+static TaskHandle_t  s_DisplayInitTaskHandle;
+static TaskHandle_t  s_DisplayTaskHandle;
+
+
 static uint16_t *pImgBuff;
+
 
 static void Display_Init_Task(void *param)
 {
@@ -48,7 +53,7 @@ void Display_Start(void)
     if (NULL == xTaskCreateStatic(Display_Init_Task, "Display_Init_Task", DISPLAYINITTASK_STACKSIZE, NULL, DISPLAYINITTASK_PRIORITY,
                                     s_CameraInitTaskStack, &s_CameraInitTaskTCB))
 #else
-    if (xTaskCreate(Display_Init_Task, "Display_Init_Task", DISPLAYINITTASK_STACKSIZE, NULL, DISPLAYINITTASK_PRIORITY, NULL) != pdPASS)
+    if (xTaskCreate(Display_Init_Task, "Display_Init_Task", DISPLAYINITTASK_STACKSIZE, NULL, DISPLAYINITTASK_PRIORITY, &s_DisplayInitTaskHandle) != pdPASS)
 #endif
     {
         PRINTF("[ERROR]Display Init created failed\r\n");
@@ -62,7 +67,7 @@ void Display_Start(void)
     if (NULL == xTaskCreateStatic(Display_Task, "Display_Task", DISPLAYTASK_STACKSIZE, NULL, DISPLAYTASK_PRIORITY,
                                     s_CameraInitTaskStack, &s_CameraInitTaskTCB))
 #else
-    if (xTaskCreate(Display_Task, "Display_Task", DISPLAYTASK_STACKSIZE, NULL, DISPLAYTASK_PRIORITY, NULL) != pdPASS)
+    if (xTaskCreate(Display_Task, "Display_Task", DISPLAYTASK_STACKSIZE, NULL, DISPLAYTASK_PRIORITY, &s_DisplayTaskHandle) != pdPASS)
 #endif
     {
         PRINTF("[ERROR]Display Task created failed\r\n");

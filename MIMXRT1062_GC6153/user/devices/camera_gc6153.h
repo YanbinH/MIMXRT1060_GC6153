@@ -2,7 +2,7 @@
  * camera_gc6153.h
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 #ifndef DEVICES_CAMERA_GC6153_H_

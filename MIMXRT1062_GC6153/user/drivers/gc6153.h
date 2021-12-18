@@ -2,7 +2,7 @@
  * gc6153.h
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 #ifndef DRIVERS_GC6153_H_
@@ -18,6 +18,7 @@
 #include "param.h"
 #include "FreeRTOS.h"
 #include "fsl_debug_console.h"
+
 
 
 #define CAMERA_I2C_MASTER LPI2C1

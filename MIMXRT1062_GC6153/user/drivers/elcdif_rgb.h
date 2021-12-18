@@ -2,7 +2,7 @@
  * elcdif_rgb.h
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 #ifndef DRIVERS_ELCDIF_RGB_H_

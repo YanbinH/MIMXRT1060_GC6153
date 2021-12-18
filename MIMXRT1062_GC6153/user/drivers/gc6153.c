@@ -2,7 +2,7 @@
  * gc6153.c
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 
@@ -21,19 +21,19 @@ static uint8_t pre_data[3];
 static GC6153_Status img_status = Frame_Stop;
 static uint16_t *pIMAGE = image_data;
 
+
 static void display_process(uint16_t *data, const uint8_t *buff)
 {
-
-	uint32_t offset=8;
-
-	for(uint32_t i=0; i<IMAGE_HIGHT; i++, offset+=488)
+	uint16_t *pdst = data;
+	const uint8_t *psrc = buff+8;
+	for( ; psrc<buff+TRANSFER_SIZE; psrc+=8, data+=IMAGE_WIDTH)
 	{
-		for(uint32_t j=0; j<IMAGE_WIDTH*2; j+=2)
+		for(; pdst<data+IMAGE_WIDTH; pdst++, psrc+=2)
 		{
-			data[IMAGE_WIDTH*i+j/2] = buff[offset+j]<<8 | buff[offset+j+1];
+			*pdst = (*psrc)<<8 | *(psrc+1);
 		}
-	}
 
+	}
 }
 
 
@@ -193,7 +193,6 @@ static void GC6153_InitPins(void)
 	IOMUXC_SetPinConfig(IOMUXC_GPIO_SD_B0_01_LPSPI1_PCS0, 0xB8B0U);
 	IOMUXC_SetPinConfig(IOMUXC_GPIO_SD_B0_02_LPSPI1_SDO, 0x10B0U);
 	IOMUXC_SetPinConfig(IOMUXC_GPIO_SD_B0_03_LPSPI1_SDI, 0x10B0U);
-
 
 }
 

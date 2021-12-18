@@ -2,10 +2,15 @@
  * camera_task.c
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 #include "camera_task.h"
+
+
+
+static TaskHandle_t  s_CameraInitTaskHandle;
+static TaskHandle_t  s_CameraTaskHandle;
 
 
 
@@ -48,7 +53,7 @@ void Camera_Start(void)
     if (NULL == xTaskCreateStatic(Camera_Init_Task, "Camera_Init_Task", CAMERAINITTASK_STACKSIZE, NULL, CAMERAINITTASK_PRIORITY,
                                     s_CameraInitTaskStack, &s_CameraInitTaskTCB))
 #else
-    if (xTaskCreate(Camera_Init_Task, "Camera_Init_Task", CAMERAINITTASK_STACKSIZE, NULL, CAMERAINITTASK_PRIORITY, NULL) != pdPASS)
+    if (xTaskCreate(Camera_Init_Task, "Camera_Init_Task", CAMERAINITTASK_STACKSIZE, NULL, CAMERAINITTASK_PRIORITY, &s_CameraInitTaskHandle) != pdPASS)
 #endif
     {
         PRINTF("[ERROR]Camera Init created failed\r\n");
@@ -62,7 +67,7 @@ void Camera_Start(void)
     if (NULL == xTaskCreateStatic(Camera_Task, "Camera_Task", CAMERATASK_STACKSIZE, NULL, CAMERATASK_PRIORITY,
                                     s_CameraInitTaskStack, &s_CameraInitTaskTCB))
 #else
-    if (xTaskCreate(Camera_Task, "Camera_Task", CAMERATASK_STACKSIZE, NULL, CAMERATASK_PRIORITY, NULL) != pdPASS)
+    if (xTaskCreate(Camera_Task, "Camera_Task", CAMERATASK_STACKSIZE, NULL, CAMERATASK_PRIORITY, &s_CameraTaskHandle) != pdPASS)
 #endif
     {
         PRINTF("[ERROR]Camera Task created failed\r\n");

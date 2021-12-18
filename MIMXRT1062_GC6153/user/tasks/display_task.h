@@ -2,7 +2,7 @@
  * display_task.h
  *
  *  Created on: Dec 14, 2021
- *      Author: nxf75461
+ *      Author: HYB
  */
 
 #ifndef TASKS_DISPLAY_TASK_H_

@@ -9,13 +9,13 @@ F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_iomuxc.h:1302:20
 F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_lpspi.h:616:20:LPSPI_EnableInterrupts	0	static
 F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_lpspi.h:631:20:LPSPI_DisableInterrupts	0	static
 F:\Study\Github\MIMXRT1060_GC6153\MIMXRT1062_GC6153\drivers/fsl_lpspi.h:966:24:LPSPI_ReadData	0	static
-../user/drivers/gc6153.c:24:13:display_process	16	static
+../user/drivers/gc6153.c:25:13:display_process	4	static
 ../user/drivers/gc6153.c:41:13:image_process	16	static
 ../user/drivers/gc6153.c:95:6:LPSPI1_IRQHandler	8	static
 ../user/drivers/gc6153.c:102:17:GC6153_I2C_Transfer	48	static
 ../user/drivers/gc6153.c:123:17:GC6153_I2C_Receive	48	static
 ../user/drivers/gc6153.c:141:13:GC6153_PWDN	8	static
 ../user/drivers/gc6153.c:166:13:GC6153_InitPins	48	static
-../user/drivers/gc6153.c:200:13:Camera_i2cinit	40	static
-../user/drivers/gc6153.c:211:13:Camera_spiinit	24	static
-../user/drivers/gc6153.c:224:10:GC6153_Init	8	static
+../user/drivers/gc6153.c:199:13:Camera_i2cinit	40	static
+../user/drivers/gc6153.c:210:13:Camera_spiinit	24	static
+../user/drivers/gc6153.c:223:10:GC6153_Init	8	static
