@@ -18,3 +18,6 @@ Sync_Code2 -> Data Packet
 
 Sync_Code3 -> Frame End Packet
 
+
+# Reference 
+https://blog.csdn.net/tllfyj/article/details/114304661
