@@ -11,7 +11,10 @@ Without HSYNC & VSYNC, Sync Code is packed into frame header and frame end.
 ![image](https://user-images.githubusercontent.com/88095003/152766915-40f15d60-6d72-4f45-8e6b-2606686b1a8f.png)
 
 Sync Code0 -> Frame Start Packet(VSYNC)
+
 Sync Code1 -> Line Start Packet (HSYNC)
+
 Sync Code2 -> Data Packet
+
 Sync Code3 -> Frame End Packet
 
