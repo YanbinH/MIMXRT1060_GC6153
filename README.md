@@ -1,8 +1,11 @@
 # MIMXRT1060_GC6153
 It's a gc6153 demo code based on IMXRT1062.
 
+
 ·MCLK = 24MHz
+
 ·RGB565 output format
+
 ·10 fps
 
 
