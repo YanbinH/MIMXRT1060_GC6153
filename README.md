@@ -35,5 +35,6 @@ Sync_Code3 -> Frame End Packet
 ![image](https://user-images.githubusercontent.com/88095003/152768604-5bd7099f-5f98-4ea3-907e-0e34e1995d4f.png)
 
 
-# Reference 
+#[AE-QVGA-3005 GC6153 CSP DataSheet release V1.0.pdf](https://github.com/YanbinH/MIMXRT1060_GC6153/files/8473399/AE-QVGA-3005.GC6153.CSP.DataSheet.release.V1.0.pdf)
+ Reference 
 https://blog.csdn.net/tllfyj/article/details/114304661
